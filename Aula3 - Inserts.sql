@@ -16,7 +16,6 @@ VALUES (2, 55);
 
 SELECT * FROM ambulatorio;
 
-
 --medico
 INSERT INTO medico(nome, idade, especialidade, cpf,	cidade, nroa)
 VALUES ('João', 40, 'ortoperdia', '10000100000', 'florianopolis', 1);
@@ -34,7 +33,6 @@ INSERT INTO medico(nome, idade, especialidade, cpf,	cidade, nroa)
 VALUES ('Marcia', 33, 'neurologia', '10000100004', 'biguacu', 5);
 
 SELECT * FROM medico;
-
 
 -- paciente
 INSERT INTO paciente(nome, idade,	cidade,	cpf, doenca)
@@ -101,3 +99,5 @@ INSERT INTO consulta
 VALUES (4, 4, '2022-10-22', '1930');
 
 SELECT * FROM consulta;
+
+SELECT * FROM funcionario;
